@@ -1,5 +1,5 @@
 {
-  "name": "@abhi18av/bible-api-github-test",
+  "name": "bible-api-github-test",
   "version": "0.0.1",
   "description": "A wrapper for the https://scripture.api.bible/ API",
   "main": "index.js",
