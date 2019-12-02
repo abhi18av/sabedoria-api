@@ -1,13 +1,14 @@
 {
-  "name": "bible-api-github-test",
+  "name": "sabedoria-api",
   "version": "0.0.1",
   "description": "A wrapper for the https://scripture.api.bible/ API",
   "main": "index.js",
   "scripts": {
+    "postpublish": "npm publish --ignore-scripts --@abhi18av:registry='https://registry.npmjs.org'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "repository":"git://github.com/abhi18av/bible-api-github-test.git",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@abhi18av" },
+  "repository":"git://github.com/abhi18av/sabedoria-api.git",
   "keywords": [
     "bible",
     "api",
