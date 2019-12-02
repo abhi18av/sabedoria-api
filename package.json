@@ -7,7 +7,7 @@
     "postpublish": "npm publish --ignore-scripts --@abhi18av:registry='https://registry.npmjs.org'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":"git://github.com/abhi18av/sabedoria-api.git",
+  "repository": "git://github.com/abhi18av/sabedoria-api.git",
   "keywords": [
     "bible",
     "api",
@@ -15,5 +15,8 @@
     "rest"
   ],
   "author": "Abhinav Sharma",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
 }
